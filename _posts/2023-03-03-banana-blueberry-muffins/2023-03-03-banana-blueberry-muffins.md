@@ -183,31 +183,39 @@ How they were made, including the measurements of each ingredient, and the steps
 
 ---
 <table>
-  <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_135232.webp"></td>
-  <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_135311.webp"></td>
-  <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_135447.webp"></td>
+<tr>
+    <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_135232.webp"></td>
+    <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_135311.webp"></td>
+    <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_135447.webp"></td>
+</tr>
 </table>
 *Measure: Flour - spoon into measuring cup, level off, then sift (I did not have whole wheat flour, so I used all purpose)*
 
 ---
 <table>
+<tr>
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_135649.webp"></td>
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_135705.webp"></td>
+</tr>
 </table>
 *Measure: Sugar - scoop into measuring cup, then level off*
 
 ---
 <table>
+<tr>
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_135809.webp"></td>
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_135813.webp"></td>
-</table>
+</tr>
+<table>
 *Measure: Baking Powder - scoop into measuring spoon, then level off*
 
 ---
 <table>
+<tr>
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_135913.webp"></td>
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_135915.webp"></td>
-</table>
+</tr>
+<table>
 *Measure: Baking Soda - scoop into measuring spoon, then level off*
 
 ---
@@ -220,40 +228,50 @@ How they were made, including the measurements of each ingredient, and the steps
 
 ---
 <table>
+<tr>
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_140234.webp"></td>
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_140257.webp"></td>
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_140302.webp"></td>
+</tr>
 </table>
 *Measure: Olive Oil - Pour over used measuring cup, then pour into new bowl*
 
 ---
 <table>
+<tr>
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_140431.webp"></td>
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_140656.webp"></td>
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_140709.webp"></td>
+</tr>
 </table>
 *Bananas - Mash up then put into wet bowl*
 
 ---
 <table>
+<tr>
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_140729.webp"></td>
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_140747.webp"></td>
+</tr>
 </table>
 *Egg - Carry in separate bowl (germs!), and put into wet bowl*
 
 ---
 <table>
+<tr>
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_140843.webp"></td>
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_140900.webp"></td>
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_140908.webp"></td>
+</tr>
 </table>
 *Measure: Vanilla Extract - I used artificial (should be more or less the same in my honest opinion), measure into used measuring cup*
 
 ---
 <table>
+<tr>
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_141052.webp"></td>
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_141114.webp"></td>
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_141130.webp"></td>
+</tr>
 </table>
 *Whisk wet ingredients together, then pour with dry ingredients*
 
@@ -262,6 +280,7 @@ How they were made, including the measurements of each ingredient, and the steps
 *Adding milk as needed*
 
 <table>
+<tr>
 <tr>
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_141541.webp"></td>
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_141545.webp"></td>
@@ -272,42 +291,53 @@ How they were made, including the measurements of each ingredient, and the steps
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_141605.webp"></td>
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_141728.webp"></td>
 </tr>
+</tr>
 </table>
 *Measure blueberries, then fold until even*
 
 ---
 <table>
+<tr>
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_141827.webp"></td>
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_142333.webp"></td>
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_142520.webp"></td>
+</tr>
 </table>
 *Filling up muffin cups. Topping off with a few more blueberries for appearance :)*
 
 ---
 <table>
+<tr>
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_142712.webp"></td>
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_142742.webp"></td>
+</tr>
 </table>
 *Bake on middle rack of oven, and set timer for 20 minutes (do not mind the bottom right one 🫢)*
 
 ---
 <table>
+<tr>
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_144252.webp"></td>
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_144829.webp"></td>
+</tr>
 </table>
 *Baking progress + take out of oven (20 minutes was just enough in my case)*
 
 ---
 <table>
+<tr>
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_144910.webp"></td>
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_144914.webp"></td>
+</tr>
 </table>
 *Finished!*
 
 ---
 <table>
+<tr>
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_145722.webp"></td>
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_145738.webp"></td>
+</tr>
 </table>
 *Yum!*
 
