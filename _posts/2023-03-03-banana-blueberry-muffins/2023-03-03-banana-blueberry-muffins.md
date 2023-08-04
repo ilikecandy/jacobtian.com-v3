@@ -20,12 +20,6 @@ Here's the full recipe right here (backstory and details at the end, thank me la
 
 # Ingredients:
 
-<!-- <style>
-   input, label{ display: inline; }
-
-   p em, img + em { font-size: 1.2em; display: block; }
-</style> -->
-
 The yield of the recipe is 12 muffins, which I’m already satisfied with
 If I wanted to make 18 muffins, I would need to multiply every ingredient by (18 / 12) which is 1.5
 
@@ -206,7 +200,7 @@ How they were made, including the measurements of each ingredient, and the steps
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_135809.webp"></td>
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_135813.webp"></td>
 </tr>
-<table>
+</table>
 *Measure: Baking Powder - scoop into measuring spoon, then level off*
 
 ---
@@ -215,7 +209,7 @@ How they were made, including the measurements of each ingredient, and the steps
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_135913.webp"></td>
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_135915.webp"></td>
 </tr>
-<table>
+</table>
 *Measure: Baking Soda - scoop into measuring spoon, then level off*
 
 ---
@@ -281,7 +275,6 @@ How they were made, including the measurements of each ingredient, and the steps
 
 <table>
 <tr>
-<tr>
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_141541.webp"></td>
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_141545.webp"></td>
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_141602.webp"></td>
@@ -290,7 +283,6 @@ How they were made, including the measurements of each ingredient, and the steps
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_141604.webp"></td>
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_141605.webp"></td>
   <td><img src="/assets/images/post/2023-03-03-banana-blueberry-muffins/webp/20230304_141728.webp"></td>
-</tr>
 </tr>
 </table>
 *Measure blueberries, then fold until even*
