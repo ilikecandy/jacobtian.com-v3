@@ -44,7 +44,7 @@ If you view a photo meant for parallel view using the cross view method or vice 
 ***
 ![r/ParallelView - Film Lot / NYC](https://preview.redd.it/wja0fyutqbv61.jpg?width=640&crop=smart&auto=webp&s=3a5f2d53cffe340c891b218562c2082a00888ac4)
 > Parallel Viewing (open image in new tab and zoom out) [Credit:
-> [https://www.reddit.com/r/ParallelView/comments/my8ohk/film_lot_nyc/](www.reddit.com/r/ParallelView/comments/my8ohk/film_lot_nyc/)]
+> [https://www.reddit.com/r/ParallelView/comments/my8ohk/film_lot_nyc/](https://www.reddit.com/r/ParallelView/comments/my8ohk/film_lot_nyc/)]
 
 ***
 ![r/CrossView - Crossviews involving light as the three dimensional property are among my favorites :)](https://external-preview.redd.it/uur3t5eQ4cBmVEegU4_uuHZ0GULCnw2iEz25lAIT9N8.jpg?width=960&crop=smart&auto=webp&s=84257e35b3edd8af4103ca400cf29ebebacc1bcc)
@@ -53,7 +53,7 @@ If you view a photo meant for parallel view using the cross view method or vice 
 
 ***
 
-![r/CrossView - This one is going to surprise you.](https://preview.redd.it/zasnwqjjwft21.jpg?width=960&crop=smart&auto=webp&s=d47a53a33e14587c31754a4ab8f652b99b1b5da9)
+![r/CrossView - This one is going to surprise you.](https://www.review.redd.it/zasnwqjjwft21.jpg?width=960&crop=smart&auto=webp&s=d47a53a33e14587c31754a4ab8f652b99b1b5da9)
 > Cross Viewing [Credit:
 > [https://www.reddit.com/r/CrossView/comments/bfdjm2/this_one_is_going_to_surprise_you/](https://www.reddit.com/r/CrossView/comments/bfdjm2/this_one_is_going_to_surprise_you/)]
 
