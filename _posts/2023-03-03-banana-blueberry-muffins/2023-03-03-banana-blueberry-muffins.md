@@ -20,11 +20,11 @@ Here's the full recipe right here (backstory and details at the end, thank me la
 
 # Ingredients:
 
-<style>
+<!-- <style>
    input, label{ display: inline; }
 
    p em, img + em { font-size: 1.2em; display: block; }
-</style>
+</style> -->
 
 The yield of the recipe is 12 muffins, which I’m already satisfied with
 If I wanted to make 18 muffins, I would need to multiply every ingredient by (18 / 12) which is 1.5
