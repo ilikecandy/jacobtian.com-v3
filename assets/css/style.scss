@@ -1,0 +1,22 @@
+---
+---
+
+@import '{{ site.theme }}';
+
+/* append your custom style below */
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#sidebar .site-title {
+    font-weight: 600;
+}
+
+#topbar #breadcrumb {
+    font-weight: 800;
+}
+
+.post > * {
+    font-family: 'Montserrat', sans-serif;
+}
