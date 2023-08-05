@@ -1,0 +1,16 @@
+---
+layout: page
+header_title: Gallery
+# gallery
+---
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+    {{ content }}
+    {% include gallery.html photos="/assets/photos/" thumbs="/assets/thumbs/" %}
+  </body>
+</html>

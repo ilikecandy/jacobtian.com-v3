@@ -7,7 +7,7 @@ header:
   overlay_image: /assets/images/post/2023-03-03-banana-blueberry-muffins/webp/teaser.webp
 last_modified_at: 2023-03-12
 categories:
-  - Blog
+  - Random
 tags:
   - Food
 ---

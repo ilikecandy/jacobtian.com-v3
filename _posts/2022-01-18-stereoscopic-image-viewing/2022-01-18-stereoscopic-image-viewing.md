@@ -6,7 +6,7 @@ header:
   overlay_image: /assets/images/post/2022-01-18-stereoscopic-image-viewing/teaser.jpg
 last_modified_at: 2022-01-18
 categories:
-  - Blog
+  - Random
 tags:
   - Untagged
 ---
