@@ -1,6 +1,6 @@
 ---
 layout: archives
-icon: fas fa-archive
+icon: fa-solid fa-timeline
 order: 1
 header_title: Timeline
 ---
