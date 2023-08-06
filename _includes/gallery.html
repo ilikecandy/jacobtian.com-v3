@@ -8,7 +8,8 @@
         {% assign filename = filenameparts | last | replace: file.extname,"" %}
          <div class="box">
           <a href="{{ file.path | relative_url }}" title="{{ filename }}">
-           <img src="{{ include.thumbs }}{{file.name }} " alt="{{ filename }}"  class="img-gallery" />
+            {% assign thumb = filename | append: "_thumb.webp" %}
+           <img src="{{ include.thumbs }}{{ thumb }}" alt="{{ filename }}"  class="img-gallery" />
          </a></div>
         {% endif %}
       {% endif %}
