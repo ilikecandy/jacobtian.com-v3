@@ -1,0 +1,98 @@
+---
+layout: page
+header_title: Cards
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .card-title {
+            margin-top: 0.2rem !important;
+        }
+
+        :root {
+            --card-bg-color-light: #fff;
+            --card-text-color-light: #000;
+            --card-bg-color-dark: #333;
+            --card-text-color-dark: #fff;
+        }
+
+        [data-mode="light"] .card {
+            background-color: var(--card-bg-color-light);
+            color: var(--card-text-color-light);
+        }
+
+        .card {
+            background-color: var(--card-bg-color-dark);
+            color: var(--card-text-color-dark);
+        }
+
+        #search-result-wrapper {
+            display: none !important;
+        }
+
+        .card {
+            border-radius: 1.0rem;
+        }
+
+        .card-img-top {
+            border-top-left-radius: 1.0rem;
+            border-top-right-radius: 1.0rem;
+        }
+
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            /* cursor: pointer; */
+        }
+
+        .card:hover {
+            transform: scale(1.02);
+            box-shadow: 0 12px 16px rgba(0, 0, 0, 0.4);
+        }
+
+        /* .card:hover .card-title {
+            text-decoration: underline;
+            color: #007bff;
+        } */
+
+        .card-body ul {
+            padding-left: 1.5rem;
+            margin-bottom: 0;
+        }
+
+        .card-body li {
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+
+<body data-mode="{{ page.data_mode }}">
+    <h1 class="my-4">{{ page.title }}</h1>
+    <div class="row">
+        {% for card in page.cards %}
+        <div class="col-md-6 mb-4">
+            <!-- <a href="{{ card.link }}" class="card-link" target="_blank"> -->
+                <div class="card">
+                    <img src="{{ card.image }}" class="card-img-top" alt="{{ card.title }}">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ card.title }}</h5>
+                        <ul class="card-text">
+                            {% for point in card.description %}
+                            <li>{{ point }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            <!-- </a> -->
+        </div>
+        {% endfor %}
+    </div>
+</body>
+
+</html>

@@ -1,6 +1,6 @@
 ---
-title: "Banana Blueberry Muffins - Recipe Analysis"
-excerpt: "Tasty fluffy muffins! - Course HFN2O1: Food and Nutrition"
+title: "Banana Blueberry Muffins - Recipe Analysis (HFN2O - Grade 10 Food and Nutrition)"
+caption: "Tasty fluffy muffins! - Course HFN2O: Food and Nutrition"
 comments: true
 header: 
   teaser: /assets/images/post/2023-03-03-banana-blueberry-muffins/webp/teaser.webp
