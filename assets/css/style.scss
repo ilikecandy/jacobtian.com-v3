@@ -1,11 +1,14 @@
 ---
 ---
 
-@import '{{ site.theme }}';
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200..800&display=swap');
+@import 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
 
 /* append your custom style below */
+
 
 * {
     font-family: 'Montserrat', sans-serif;
