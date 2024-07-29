@@ -10,8 +10,8 @@
 /* append your custom style below */
 
 
-* {
-    font-family: 'Montserrat', sans-serif;
+*:not(i) {
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 #sidebar .site-title {

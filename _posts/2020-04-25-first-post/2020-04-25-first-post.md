@@ -1,9 +1,8 @@
 ---
 title: "First Post!"
 comments: true
-header:
-  teaser: /assets/images/post/2020-04-25-first-post/Untitled-1.png
-  overlay_image: /assets/images/post/2020-04-25-first-post/Untitled-1.png
+image:
+  path: /assets/images/post/2020-04-25-first-post/Untitled-1.png
 last_modified_at: 2020-04-25
 categories:
   - Random

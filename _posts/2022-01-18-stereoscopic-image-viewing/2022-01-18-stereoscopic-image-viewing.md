@@ -1,9 +1,8 @@
 ---
 title: "Viewing 3D Images without Glasses!"
 comments: true
-header:
-  teaser: /assets/images/post/2022-01-18-stereoscopic-image-viewing/teaser.jpg
-  overlay_image: /assets/images/post/2022-01-18-stereoscopic-image-viewing/teaser.jpg
+image:
+  path: /assets/images/post/2022-01-18-stereoscopic-image-viewing/teaser.jpg
 last_modified_at: 2022-01-18
 categories:
   - Random

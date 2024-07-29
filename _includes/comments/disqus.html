@@ -1,36 +1,16 @@
 <!-- The Disqus lazy loading. -->
-<div id="disqus_thread" class="pt-2 pb-2">
+
+<div id="disqus_thread">
   <p class="text-center text-muted small">Comments powered by <a href="https://disqus.com/">Disqus</a>.</p>
 </div>
 
-<div id="disqus_thread"></div>
-<script>
-    /**
-    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-    /*
-    var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    */
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://jacobtian.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-<!-- 
 <script type="text/javascript">
   var disqus_config = function () {
     this.page.url = '{{ page.url | absolute_url }}';
     this.page.identifier = '{{ page.url }}';
   };
 
-  /* Lazy loading */
+  {%- comment -%} Lazy loading {%- endcomment -%}
   var disqus_observer = new IntersectionObserver(
     function (entries) {
       if (entries[0].isIntersecting) {
@@ -48,12 +28,12 @@
     { threshold: [0] }
   );
 
-  disqus_observer.observe(document.querySelector('#disqus_thread'));
+  disqus_observer.observe(document.getElementById('disqus_thread'));
 
-  /* Auto switch theme */
+  {%- comment -%} Auto switch theme {%- endcomment -%}
   function reloadDisqus() {
     if (event.source === window && event.data && event.data.direction === ModeToggle.ID) {
-      /* Disqus hasn't been loaded */
+      {%- comment -%} Disqus hasn't been loaded {%- endcomment -%}
       if (typeof DISQUS === 'undefined') {
         return;
       }
@@ -64,7 +44,7 @@
     }
   }
 
-  if (document.querySelector('.mode-toggle')) {
+  if (document.getElementById('mode-toggle')) {
     window.addEventListener('message', reloadDisqus);
   }
-</script> -->
+</script>

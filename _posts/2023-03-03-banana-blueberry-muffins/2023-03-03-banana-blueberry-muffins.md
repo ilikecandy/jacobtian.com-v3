@@ -2,9 +2,8 @@
 title: "Banana Blueberry Muffins - Recipe Analysis (HFN2O - Grade 10 Food and Nutrition)"
 caption: "Tasty fluffy muffins! - Course HFN2O: Food and Nutrition"
 comments: true
-header: 
-  teaser: /assets/images/post/2023-03-03-banana-blueberry-muffins/webp/teaser.webp
-  overlay_image: /assets/images/post/2023-03-03-banana-blueberry-muffins/webp/teaser.webp
+image: 
+  path: /assets/images/post/2023-03-03-banana-blueberry-muffins/webp/teaser.webp
 last_modified_at: 2023-03-12
 categories:
   - Random
@@ -24,7 +23,9 @@ The yield of the recipe is 12 muffins, which I’m already satisfied with
 If I wanted to make 18 muffins, I would need to multiply every ingredient by (18 / 12) which is 1.5
 
 Specify yield to get the ingredients!
-<button onclick="set12()">12 muffins</button> <button onclick="set18()">18 muffins
+
+<button onclick="set12()">12 muffins</button>
+<button onclick="set18()">18 muffins</button>
 
 <script>
     function set12() {
@@ -52,7 +53,7 @@ Specify yield to get the ingredients!
             <label for=\"ingredient11\"> 1 to 3 tablespoons water or milk, as needed</label><br> \
             <input type=\"checkbox\" id=\"ingredient12\"> \
             <label for=\"ingredient12\"> 6 ounces blueberries, fresh or frozen (do not thaw), about 1 cup</label><br>");
-    }
+      }
 
     function set18() {
         $('#yield').html("<input type=\"checkbox\" id=\"ingredient1\"> \
@@ -79,7 +80,7 @@ Specify yield to get the ingredients!
             <label for=\"ingredient11\"> 1 1/2 to 4 1/2 tablespoons water or milk, as needed</label><br> \
             <input type=\"checkbox\" id=\"ingredient12\"> \
             <label for=\"ingredient12\"> 9 ounces blueberries, fresh or frozen (do not thaw), about 1 1/2 cup</label><br>");
-}
+      }
 
 </script>
 

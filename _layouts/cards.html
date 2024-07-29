@@ -10,10 +10,10 @@ header_title: Cards
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         .card-title {
             margin-top: 0.2rem !important;
+            font-weight: 600;
         }
 
         :root {
@@ -23,14 +23,14 @@ header_title: Cards
             --card-text-color-dark: #fff;
         }
 
-        [data-mode="light"] .card {
-            background-color: var(--card-bg-color-light);
-            color: var(--card-text-color-light);
-        }
-
         .card {
             background-color: var(--card-bg-color-dark);
             color: var(--card-text-color-dark);
+        }
+
+        [data-mode="light"] .card {
+            background-color: var(--card-bg-color-light);
+            color: var(--card-text-color-light);
         }
 
         #search-result-wrapper {
@@ -73,7 +73,7 @@ header_title: Cards
 </head>
 
 <body data-mode="{{ page.data_mode }}">
-    <h1 class="my-4">{{ page.title }}</h1>
+    <!-- <h1 class="my-4">{{ page.title }}</h1> -->
     <div class="row">
         {% for card in page.cards %}
         <div class="col-md-6 mb-4">
@@ -81,7 +81,7 @@ header_title: Cards
                 <div class="card">
                     <img src="{{ card.image }}" class="card-img-top" alt="{{ card.title }}">
                     <div class="card-body">
-                        <h5 class="card-title">{{ card.title }}</h5>
+                        <h3 class="card-title">{{ card.title }}</h3>
                         <ul class="card-text">
                             {% for point in card.description %}
                             <li>{{ point }}</li>
