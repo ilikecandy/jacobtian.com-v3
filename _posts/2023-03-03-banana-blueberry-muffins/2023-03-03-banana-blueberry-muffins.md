@@ -28,60 +28,59 @@ Specify yield to get the ingredients!
 <button onclick="set18()">18 muffins</button>
 
 <script>
-    function set12() {
-        $('#yield').html("<input type=\"checkbox\" id=\"ingredient1\"> \
-            <label for=\"ingredient1\"> 4 tablespoons melted and cooled coconut oil or olive oil</label><br> \
-            <input type=\"checkbox\" id=\"ingredient2\" \
-            <label for=\"ingredient2\"> 3/4 cups (95 grams) all-purpose flour</label><br>\
-            <input type=\"checkbox\" id=\"ingredient3\"> \
-            <label for=\"ingredient3\"> 3/4 cups (95 grams) whole wheat flour</label><br> \
-            <input type=\"checkbox\" id=\"ingredient4\"> \
-            <label for=\"ingredient4\"> 1/3 cup (65 grams) sugar</label><br> \
-            <input type=\"checkbox\" id=\"ingredient5\"> \
-            <label for=\"ingredient5\"> 1 teaspoon baking powder</label><br> \
-            <input type=\"checkbox\" id=\"ingredient6\"> \
-            <label for=\"ingredient6\"> 1 teaspoon baking soda</label><br> \
-            <input type=\"checkbox\" id=\"ingredient7\"> \
-            <label for=\"ingredient7\"> 1/4 teaspoon sea salt</label><br> \
-            <input type=\"checkbox\" id=\"ingredient8\"> \
-            <label for=\"ingredient8\"> 2 large ripe bananas, mashed with a fork (about 1 cup)</label><br> \
-            <input type=\"checkbox\" id=\"ingredient9\"> \
-            <label for=\"ingredient9\"> 1 large egg</label><br> \
-            <input type=\"checkbox\" id=\"ingredient10\"> \
-            <label for=\"ingredient10\"> 1/2 teaspoon vanilla extract</label><br> \
-            <input type=\"checkbox\" id=\"ingredient11\"> \
-            <label for=\"ingredient11\"> 1 to 3 tablespoons water or milk, as needed</label><br> \
-            <input type=\"checkbox\" id=\"ingredient12\"> \
-            <label for=\"ingredient12\"> 6 ounces blueberries, fresh or frozen (do not thaw), about 1 cup</label><br>");
-      }
+  function set12() {
+    document.getElementById('yield').innerHTML = `<input type="checkbox" id="ingredient1">
+      <label for="ingredient1"> 4 tablespoons melted and cooled coconut oil or olive oil</label><br>
+      <input type="checkbox" id="ingredient2">
+      <label for="ingredient2"> 3/4 cups (95 grams) all-purpose flour</label><br>
+      <input type="checkbox" id="ingredient3">
+      <label for="ingredient3"> 3/4 cups (95 grams) whole wheat flour</label><br>
+      <input type="checkbox" id="ingredient4">
+      <label for="ingredient4"> 1/3 cup (65 grams) sugar</label><br>
+      <input type="checkbox" id="ingredient5">
+      <label for="ingredient5"> 1 teaspoon baking powder</label><br>
+      <input type="checkbox" id="ingredient6">
+      <label for="ingredient6"> 1 teaspoon baking soda</label><br>
+      <input type="checkbox" id="ingredient7">
+      <label for="ingredient7"> 1/4 teaspoon sea salt</label><br>
+      <input type="checkbox" id="ingredient8">
+      <label for="ingredient8"> 2 large ripe bananas, mashed with a fork (about 1 cup)</label><br>
+      <input type="checkbox" id="ingredient9">
+      <label for="ingredient9"> 1 large egg</label><br>
+      <input type="checkbox" id="ingredient10">
+      <label for="ingredient10"> 1/2 teaspoon vanilla extract</label><br>
+      <input type="checkbox" id="ingredient11">
+      <label for="ingredient11"> 1 to 3 tablespoons water or milk, as needed</label><br>
+      <input type="checkbox" id="ingredient12">
+      <label for="ingredient12"> 6 ounces blueberries, fresh or frozen (do not thaw), about 1 cup</label><br>`;
+  }
 
-    function set18() {
-        $('#yield').html("<input type=\"checkbox\" id=\"ingredient1\"> \
-            <label for=\"ingredient1\"> 6 tablespoons melted and cooled coconut oil or olive oil</label><br> \
-            <input type=\"checkbox\" id=\"ingredient2\"> \
-            <label for=\"ingredient2\"> 1 1/2 cups (142.5 grams) all-purpose flour</label><br> \
-            <input type=\"checkbox\" id=\"ingredient3\"> \
-            <label for=\"ingredient3\"> 1 1/2 cups (142.5 grams) whole wheat flour</label><br> \
-            <input type=\"checkbox\" id=\"ingredient4\"> \
-            <label for=\"ingredient4\"> 2/3 cup (97.5 grams) sugar</label><br> \
-            <input type=\"checkbox\" id=\"ingredient5\"> \
-            <label for=\"ingredient5\"> 1 1/2 teaspoon baking powder</label><br> \
-            <input type=\"checkbox\" id=\"ingredient6\"> \
-            <label for=\"ingredient6\"> 1 1/2 teaspoon baking soda</label><br> \
-            <input type=\"checkbox\" id=\"ingredient7\"> \
-            <label for=\"ingredient7\"> 1/2 teaspoon sea salt</label><br> \
-            <input type=\"checkbox\" id=\"ingredient8\"> \
-            <label for=\"ingredient8\"> 3 large ripe bananas, mashed with a fork (about 1 1/2 cup)</label><br> \
-            <input type=\"checkbox\" id=\"ingredient9\"> \
-            <label for=\"ingredient9\"> 1 1/2 large egg</label><br> \
-            <input type=\"checkbox\" id=\"ingredient10\"> \
-            <label for=\"ingredient10\"> 3/4 teaspoon vanilla extract</label><br> \
-            <input type=\"checkbox\" id=\"ingredient11\"> \
-            <label for=\"ingredient11\"> 1 1/2 to 4 1/2 tablespoons water or milk, as needed</label><br> \
-            <input type=\"checkbox\" id=\"ingredient12\"> \
-            <label for=\"ingredient12\"> 9 ounces blueberries, fresh or frozen (do not thaw), about 1 1/2 cup</label><br>");
-      }
-
+  function set18() {
+    document.getElementById('yield').innerHTML = `<input type="checkbox" id="ingredient1">
+      <label for="ingredient1"> 6 tablespoons melted and cooled coconut oil or olive oil</label><br>
+      <input type="checkbox" id="ingredient2">
+      <label for="ingredient2"> 1 1/2 cups (142.5 grams) all-purpose flour</label><br>
+      <input type="checkbox" id="ingredient3">
+      <label for="ingredient3"> 1 1/2 cups (142.5 grams) whole wheat flour</label><br>
+      <input type="checkbox" id="ingredient4">
+      <label for="ingredient4"> 2/3 cup (97.5 grams) sugar</label><br>
+      <input type="checkbox" id="ingredient5">
+      <label for="ingredient5"> 1 1/2 teaspoon baking powder</label><br>
+      <input type="checkbox" id="ingredient6">
+      <label for="ingredient6"> 1 1/2 teaspoon baking soda</label><br>
+      <input type="checkbox" id="ingredient7">
+      <label for="ingredient7"> 1/2 teaspoon sea salt</label><br>
+      <input type="checkbox" id="ingredient8">
+      <label for="ingredient8"> 3 large ripe bananas, mashed with a fork (about 1 1/2 cup)</label><br>
+      <input type="checkbox" id="ingredient9">
+      <label for="ingredient9"> 1 1/2 large egg</label><br>
+      <input type="checkbox" id="ingredient10">
+      <label for="ingredient10"> 3/4 teaspoon vanilla extract</label><br>
+      <input type="checkbox" id="ingredient11">
+      <label for="ingredient11"> 1 1/2 to 4 1/2 tablespoons water or milk, as needed</label><br>
+      <input type="checkbox" id="ingredient12">
+      <label for="ingredient12"> 9 ounces blueberries, fresh or frozen (do not thaw), about 1 1/2 cup</label><br>`;
+  }
 </script>
 
 <div id="yield"></div>

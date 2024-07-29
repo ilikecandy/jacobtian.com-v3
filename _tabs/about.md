@@ -21,10 +21,11 @@ Main camera gear if you're curious :)
 - Voigtlander 15mm f/4.5 III
 - Godox V860III
 
-
 No specific genre niche just yet, but I enjoy shooting street, portrait, landscape, macro, astro, and just capturing life moments in general.
 
 ---
+
+If you'd like to get in touch, feel free to reach out to me; my info at the bottom of the sidebar.
 
 Thanks for stopping by! 📸
 
