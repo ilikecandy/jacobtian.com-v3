@@ -12,15 +12,16 @@ cards:
     image: ../assets/images/achievements/arduino-w.webp
   - title: <a href='https://novelcookies.etsy.com' target='_blank'>NovelCookies Small Business</a>
     description:
-      - "Online store selling 3D printed cookie cutters."
+      - "Created and managed an online store selling 3D printed cookie cutters."
       - "2,800+ units sold with over $20,000 CAD in sales."
       - "Rated 4.7/5 stars across 190+ reviews."
     image: ../assets/images/achievements/novelcookies-w.webp
   - title: Stock Photography
     description:
-      - "230+ images sold with over $200 CAD earnings."
-      - "1,000+ photos listed across five platforms."
+      - "Captured, curated, and marketed a portfolio of 1,000+ photos listed across five platforms."
+      - "400+ images sold with over $300 CAD earnings."
       - "Listed on: <a href='https://www.shutterstock.com/en/g/Jacob+Tian?rid=392778963' target='_blank'>Shutterstock</a>, <a href='https://www.istockphoto.com/portfolio/jacobtian' target='_blank'>iStock</a>, <a href='https://www.dreamstime.com/jacobtian2_info' target='_blank'>Dreamstime</a>, <a href='https://stock.adobe.com/ca/contributor/211564540/Jacob%20Tian' target='_blank'>Adobe Stock</a>, <a href='https://www.alamy.com/search/imageresults.aspx?pl=1&plno=1228358' target='_blank'>Alamy</a>"
+      - "Featured by: <a href='https://x.com/saugaparksrec/status/1793280733035032590' target='_blank'>Mississauga Parks</a>, <a href='https://www.herriman.gov/fireworks' target='_blank'>Herriman City (Utah)</a>, <a href='https://omny.fm/shows/wwjam-on-demand/northville-twp-police-warn-of-home-invasions-tied' target='_blank'>Metro Detroit News</a>"
     image: ../assets/images/achievements/stock-photography-w.webp
   - title: Freelance 3D Modeling
     description:
