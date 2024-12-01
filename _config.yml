@@ -193,6 +193,10 @@ defaults:
       layout: page
       permalink: /:title/
 
+# added so achievements can be displayed on home
+include:
+  - _tabs
+
 sass:
   style: compressed
 
