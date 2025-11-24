@@ -32,9 +32,8 @@ cards:
     image: ../assets/images/achievements/3d-modeling-w.webp
   - title: Android App - Pixel Generator
     description:
-      - "95,000+ downloads on the Google Play Store."
+      - "<a href='https://play.google.com/store/apps/details?id=com.ilike.pixelgenerator' target='_blank'>97,000+ downloads on the Google Play Store.</a>"
       - "$200+ CAD in ad revenue."
-      - <a href='https://platform.foxdata.com/en/app-profile/com.ilike.pixelgenerator/GB/gp' target='_blank'>App was removed (new age restriction policy), but details and stats can be found here.</a>
     image: ../assets/images/achievements/pixel-generator-w.webp
 
 ---

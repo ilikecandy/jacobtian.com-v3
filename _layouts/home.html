@@ -71,24 +71,86 @@ refactor: true
         }
 </style>
 
-<!-- Include achievements content -->
+<!-- Framer promo section (replaces Achievements on Home) -->
 <hr class="my-5">
-<h2 class="display-7 mb-4">Achievements</h2>
-{% assign achievements = site.pages | where: "path", "_tabs/achievements.md" | first %}
-<div class="row">
-  {% for card in achievements.cards %}
-  <div class="col-md-6 mb-4">
-    <div class="card">
-      <img src="{{ card.image }}" class="card-img-top" alt="{{ card.title }}">
-      <div class="card-body">
-        <h3 class="card-title">{{ card.title }}</h3>
-        <ul class="card-text">
-          {% for point in card.description %}
-          <li>{{ point }}</li>
-          {% endfor %}
-        </ul>
+<section id="framer-promo" class="framer-promo">
+  <div class="row">
+    <div class="col-12 mb-4">
+      <h2 class="display-5 mb-3"><strong>Framer - Beautiful EXIF border frames</strong></h2>
+      <p class="lead text-muted mb-3">Generate fully-customizable, elegant EXIF frames for your photos. Add a palette grabbed straight from your photo, adjust borders, positioning, size, and export framed images ready for sharing or printing.</p>
+      <ul class="mb-3">
+        <li>EXIF data and colour palettes extracted from your photos automatically</li>
+        <li>Adjust borders, positioning, and size</li>
+        <li>Export framed images with no watermarks</li>
+        <li>Completely customizable to fit your style</li>
+      </ul>
+      <p>
+        <a class="btn btn-primary btn-lg me-2" href="https://framer.jacobtian.com" target="_blank" rel="noopener">Open Framer</a>
+      </p>
+      <p class="mt-2"><a href="https://framer.jacobtian.com" class="small text-muted" target="_blank" rel="noopener">framer.jacobtian.com</a></p>
+    </div>
+
+    <div class="col-12">
+      <div class="framer-frame shadow-lg">
+        <img src="/assets/img/framer_result.webp" alt="Framer preview" class="img-fluid framer-screenshot">
+        <div class="framer-badge">New</div>
       </div>
     </div>
   </div>
-  {% endfor %}
-</div>
+</section>
+
+<style>
+  /* Framer promo visuals */
+  .framer-promo { opacity: 0; transform: translateY(18px); transition: opacity 600ms cubic-bezier(.2,.9,.2,1), transform 600ms cubic-bezier(.2,.9,.2,1); }
+  .framer-promo.in-view { opacity: 1; transform: none; }
+
+  .framer-frame { position: relative; border-radius: 1rem; overflow: hidden; background: var(--card-bg-color-light); }
+  .framer-frame .framer-screenshot { display: block; width: 100%; height: auto; transform: translateY(6px); transition: transform 450ms ease; }
+  .framer-frame:hover .framer-screenshot { transform: translateY(0) scale(1.01); }
+
+  .framer-badge { position: absolute; right: 1rem; top: 1rem; background: rgba(0,0,0,0.8); color: #fff; padding: .35rem .6rem; border-radius: .5rem; font-size: .8rem; font-weight: 600; box-shadow: 0 6px 18px rgba(0,0,0,.25); }
+
+  /* subtle floating glow */
+  .framer-frame::after {
+    content: '';
+    position: absolute; inset: -40%; background: radial-gradient(ellipse at center, rgba(255,255,255,0.06), transparent 35%);
+    transform: translateY(6px); transition: transform 900ms ease;
+    pointer-events: none;
+  }
+  .framer-frame:hover::after { transform: translateY(0); }
+
+  /* responsive tweaks */
+  @media (max-width: 991px) {
+    .framer-frame { margin: 0 auto; max-width: 720px; }
+  }
+
+  /* small loading shimmer for image while asset loads */
+  .framer-screenshot[data-loading="true"]{ background: linear-gradient(90deg,#f3f3f3 25%, #ececec 37%, #f3f3f3 63%); background-size: 400% 100%; animation: shimmer 1.6s linear infinite; }
+  @keyframes shimmer { 0%{background-position:100% 0}100%{background-position:0 0} }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function(){
+    var promo = document.getElementById('framer-promo');
+    if(!promo) return;
+    // Intersection observer for enter animations
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if(e.isIntersecting){
+          promo.classList.add('in-view');
+          io.disconnect();
+        }
+      });
+    }, {threshold: 0.12});
+    io.observe(promo);
+
+    // image loading shimmer fallback
+    var img = promo.querySelector('.framer-screenshot');
+    if(img){
+      img.setAttribute('data-loading','true');
+      img.addEventListener('load', function(){ img.removeAttribute('data-loading'); });
+      // if cached already
+      if(img.complete) img.removeAttribute('data-loading');
+    }
+  });
+</script>

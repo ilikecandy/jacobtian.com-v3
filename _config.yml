@@ -16,10 +16,8 @@ timezone: America/Toronto
 
 title: Jacob Tian # the main title
 
-tagline: "Grade 12 Student" # it will display as the sub-title
-tagline2: "Photographer"
-tagline3: "3D Printing Enthusiast"
-tagline4: "Programmer"
+tagline: "Computer Engineering @ York University" # it will display as the sub-title
+tagline2: "Photography • 3D Design • Software"
 
 description: >- # used by seo meta and the atom feed
   Hi there! I am Jacob Tian 🙂
@@ -43,9 +41,9 @@ social:
     - https://jacobtian.com # change to your site url
     # - https://twitter.com/username # change to your twitter homepage
     - https://github.com/ilikecandy # change to your github homepage
+    - https://www.linkedin.com/in/jacobtian # add your LinkedIn username here
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
 
 # Site Verification Settings
 webmaster_verifications:
