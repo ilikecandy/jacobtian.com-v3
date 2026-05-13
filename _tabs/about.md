@@ -8,7 +8,7 @@ header_title: About
 <!-- > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
 {: .prompt-tip } -->
 
-Hello there! I'm Jacob Tian, a first-year Computer Engineering student at York University. I'm passionate about engineering, photography, 3D printing + design, and creating cool stuff.
+Hello there! I'm Jacob Tian, a second-year Computer Engineering student at York University. I'm passionate about engineering, photography, 3D printing + design, and creating cool stuff.
 
 I also sell 3D printed cookie cutters on Etsy, check them out <a href="https://www.etsy.com/ca/shop/NovelCookies" target="_blank">here</a>!
 
