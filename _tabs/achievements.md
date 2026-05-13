@@ -3,6 +3,7 @@ layout: cards
 title: Achievements
 icon: fas fa-trophy
 order: 99
+hidden: true
 cards:
   - title: IEEE Arduino Contest Winner
     description:

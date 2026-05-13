@@ -32,7 +32,7 @@
       </li>
       <!-- the real tabs -->
       {% for tab in site.tabs %}
-      {% if tab.url != '/' %}
+      {% if tab.url != '/' and tab.hidden != true %}
 
       <li class="nav-item{% if tab.url == page.url %}{{ " active" }}{% endif %}">
         <a href="{{ tab.url | relative_url }}" class="nav-link">

@@ -101,8 +101,7 @@ refactor: true
 
 <style>
   /* Framer promo visuals */
-  .framer-promo { opacity: 0; transform: translateY(18px); transition: opacity 600ms cubic-bezier(.2,.9,.2,1), transform 600ms cubic-bezier(.2,.9,.2,1); }
-  .framer-promo.in-view { opacity: 1; transform: none; }
+  .framer-promo { opacity: 1; transform: none; transition: opacity 600ms cubic-bezier(.2,.9,.2,1); }
 
   .framer-frame { position: relative; border-radius: 1rem; overflow: hidden; background: var(--card-bg-color-light); }
   .framer-frame .framer-screenshot { display: block; width: 100%; height: auto; transform: translateY(6px); transition: transform 450ms ease; }
@@ -133,16 +132,6 @@ refactor: true
   document.addEventListener('DOMContentLoaded', function(){
     var promo = document.getElementById('framer-promo');
     if(!promo) return;
-    // Intersection observer for enter animations
-    var io = new IntersectionObserver(function(entries){
-      entries.forEach(function(e){
-        if(e.isIntersecting){
-          promo.classList.add('in-view');
-          io.disconnect();
-        }
-      });
-    }, {threshold: 0.12});
-    io.observe(promo);
 
     // image loading shimmer fallback
     var img = promo.querySelector('.framer-screenshot');

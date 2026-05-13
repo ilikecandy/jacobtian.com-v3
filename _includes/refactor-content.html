@@ -123,7 +123,12 @@
     {% else %}
       {% assign _class = _class | append: ' shimmer' %}
     {% endif %}
-    
+
+    {% if _class %}
+      {% capture _new_class %} class="{{ _class | strip }}"{% endcapture %}
+      {% assign _left = _left | append: _new_class %}
+    {% endif %}
+
     <!-- combine -->
     {% assign _img_content = _img_content | append: IMG_TAG | append: _left | append: _right %}
   {% endfor %}
