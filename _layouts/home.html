@@ -17,20 +17,15 @@ refactor: true
         }
 
         :root {
-            --card-bg-color-light: #fff;
-            --card-text-color-light: #000;
-            --card-bg-color-dark: #333;
-            --card-text-color-dark: #fff;
+            --card-bg-color-light: var(--card-bg);
+            --card-text-color-light: var(--text-color);
+            --card-bg-color-dark: var(--card-bg);
+            --card-text-color-dark: var(--text-color);
         }
 
         .card {
-            background-color: var(--card-bg-color-dark);
-            color: var(--card-text-color-dark);
-        }
-
-        [data-mode="light"] .card {
-            background-color: var(--card-bg-color-light);
-            color: var(--card-text-color-light);
+            background-color: var(--card-bg);
+            color: var(--text-color);
         }
 
         #search-result-wrapper {
@@ -71,75 +66,111 @@ refactor: true
         }
 </style>
 
-<!-- Framer promo section (replaces Achievements on Home) -->
+<!-- Apps Showcase section -->
 <hr class="my-5">
-<section id="framer-promo" class="framer-promo">
-  <div class="row">
-    <div class="col-12 mb-4">
-      <h2 class="display-5 mb-3"><strong>Framer - Beautiful EXIF border frames</strong></h2>
-      <p class="lead text-muted mb-3">Generate fully-customizable, elegant EXIF frames for your photos. Add a palette grabbed straight from your photo, adjust borders, positioning, size, and export framed images ready for sharing or printing.</p>
-      <ul class="mb-3">
-        <li>EXIF data and colour palettes extracted from your photos automatically</li>
-        <li>Adjust borders, positioning, and size</li>
-        <li>Export framed images with no watermarks</li>
-        <li>Completely customizable to fit your style</li>
-      </ul>
-      <p>
-        <a class="btn btn-primary btn-lg me-2" href="https://framer.jacobtian.com" target="_blank" rel="noopener">Open Framer</a>
-      </p>
-      <p class="mt-2"><a href="https://framer.jacobtian.com" class="small text-muted" target="_blank" rel="noopener">framer.jacobtian.com</a></p>
+<section id="apps-showcase" class="apps-showcase">
+  <div class="row g-4">
+    <!-- Framer -->
+    <div class="col-lg-6">
+      <div class="app-card shadow-sm h-100">
+        <div class="app-frame">
+          <img src="/assets/img/framer_result.webp" alt="Framer preview" class="img-fluid app-screenshot light">
+          <img src="/assets/img/framer_result_dark.webp" alt="Framer preview dark" class="img-fluid app-screenshot dark">
+          <div class="app-badge">Framer</div>
+        </div>
+        <div class="app-content p-4">
+          <h3 class="h3 mb-2"><strong>Beautiful EXIF border frames</strong></h3>
+          <p class="text-muted mb-3">Generate elegant EXIF frames for your photos with automatic color palette extraction and full customization.</p>
+          <div class="mt-auto">
+            <a class="btn btn-outline-primary btn-sm me-2" href="https://framer.jacobtian.com" target="_blank" rel="noopener">Open Framer</a>
+            <a href="https://framer.jacobtian.com" class="small text-muted text-decoration-none" target="_blank" rel="noopener">framer.jacobtian.com</a>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div class="col-12">
-      <div class="framer-frame shadow-lg">
-        <img src="/assets/img/framer_result.webp" alt="Framer preview" class="img-fluid framer-screenshot">
-        <div class="framer-badge">New</div>
+    <!-- Exposure -->
+    <div class="col-lg-6">
+      <div class="app-card shadow-sm h-100">
+        <div class="app-frame">
+          <img src="/assets/img/exposure_result.webp" alt="Exposure preview" class="img-fluid app-screenshot">
+          <div class="app-badge">Exposure</div>
+        </div>
+        <div class="app-content p-4">
+          <h3 class="h3 mb-2"><strong>Modern Photography Calculator</strong></h3>
+          <p class="text-muted mb-3">A suite of technical tools for photographers: exposure comparison, DOF, astro, time-lapse, and more.</p>
+          <div class="mt-auto">
+            <a class="btn btn-outline-primary btn-sm me-2" href="https://exposure.jacobtian.com" target="_blank" rel="noopener">Open Exposure</a>
+            <a href="https://exposure.jacobtian.com" class="small text-muted text-decoration-none" target="_blank" rel="noopener">exposure.jacobtian.com</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
 <style>
-  /* Framer promo visuals */
-  .framer-promo { opacity: 1; transform: none; transition: opacity 600ms cubic-bezier(.2,.9,.2,1); }
+  /* Apps showcase visuals */
+  .apps-showcase { opacity: 1; transform: none; transition: opacity 600ms cubic-bezier(.2,.9,.2,1); }
 
-  .framer-frame { position: relative; border-radius: 1rem; overflow: hidden; background: var(--card-bg-color-light); }
-  .framer-frame .framer-screenshot { display: block; width: 100%; height: auto; transform: translateY(6px); transition: transform 450ms ease; }
-  .framer-frame:hover .framer-screenshot { transform: translateY(0) scale(1.01); }
+  .app-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    overflow: hidden;
+    background-color: var(--card-bg);
+    color: var(--text-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid var(--main-border-color);
+  }
 
-  .framer-badge { position: absolute; right: 1rem; top: 1rem; background: rgba(0,0,0,0.8); color: #fff; padding: .35rem .6rem; border-radius: .5rem; font-size: .8rem; font-weight: 600; box-shadow: 0 6px 18px rgba(0,0,0,.25); }
+  .app-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.15) !important;
+  }
+
+  .app-frame { position: relative; overflow: hidden; background: #1a1a1a; }
+  .app-frame .app-screenshot { display: block; width: 100%; height: auto; transition: transform 450ms ease; }
+  .app-card:hover .app-screenshot { transform: scale(1.02); }
+
+  .app-badge { 
+    position: absolute; right: 1rem; top: 1rem; 
+    background: rgba(0,0,0,0.7); color: #fff; 
+    padding: .25rem .6rem; border-radius: .5rem; 
+    font-size: .75rem; font-weight: 600; 
+    backdrop-filter: blur(4px);
+    z-index: 2;
+  }
 
   /* subtle floating glow */
-  .framer-frame::after {
+  .app-frame::after {
     content: '';
     position: absolute; inset: -40%; background: radial-gradient(ellipse at center, rgba(255,255,255,0.06), transparent 35%);
-    transform: translateY(6px); transition: transform 900ms ease;
+    transition: transform 900ms ease;
     pointer-events: none;
   }
-  .framer-frame:hover::after { transform: translateY(0); }
 
-  /* responsive tweaks */
-  @media (max-width: 991px) {
-    .framer-frame { margin: 0 auto; max-width: 720px; }
+  /* short description text coloring */
+  .app-content p {
+    color: var(--text-muted-color);
   }
 
   /* small loading shimmer for image while asset loads */
-  .framer-screenshot[data-loading="true"]{ background: linear-gradient(90deg,#f3f3f3 25%, #ececec 37%, #f3f3f3 63%); background-size: 400% 100%; animation: shimmer 1.6s linear infinite; }
+  .app-screenshot[data-loading="true"]{ background: linear-gradient(90deg,#f3f3f3 25%, #ececec 37%, #f3f3f3 63%); background-size: 400% 100%; animation: shimmer 1.6s linear infinite; }
   @keyframes shimmer { 0%{background-position:100% 0}100%{background-position:0 0} }
 </style>
 
 <script>
   document.addEventListener('DOMContentLoaded', function(){
-    var promo = document.getElementById('framer-promo');
-    if(!promo) return;
+    var showcase = document.getElementById('apps-showcase');
+    if(!showcase) return;
 
     // image loading shimmer fallback
-    var img = promo.querySelector('.framer-screenshot');
-    if(img){
+    showcase.querySelectorAll('.app-screenshot').forEach(function(img){
       img.setAttribute('data-loading','true');
       img.addEventListener('load', function(){ img.removeAttribute('data-loading'); });
       // if cached already
       if(img.complete) img.removeAttribute('data-loading');
-    }
+    });
   });
 </script>
